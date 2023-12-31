@@ -1,0 +1,141 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+body{
+    background-color: black;
+}
+section{
+    display: flex;
+    width: 300px;;
+    margin:auto;
+    margin-top: 110px;
+    margin-bottom: auto;
+    background-color: #ffffff;
+    padding: 100px;
+    border-radius: 3%;
+    box-shadow: 0px 0px 50px rgb(107, 206, 255);
+}
+div{
+    text-align: center;
+    padding: 10px;
+}
+img{
+    max-width: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  button:hover{
+    background-color: #2980b9;
+    cursor: pointer;
+  }
+
+
+input {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+}
