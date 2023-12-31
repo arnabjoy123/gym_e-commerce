@@ -7,13 +7,14 @@ img{
     border-radius: 2%;
 }
 
-p{
+.content{
     padding: 0px 30px;
     width: 50%;
     display: block;
     position: relative;
     left: 50%;
     bottom: 300px;
+
 }
 
 footer {
@@ -41,3 +42,24 @@ a{
     text-decoration: none;
     color: #fff;
 }
+
+
+@media only screen and (max-width:430px){
+    img{
+        position: relative;
+        left: 100px;
+        right: auto;
+        width: auto;
+    }
+
+
+
+    .content{
+        position: relative;
+        margin-top: 380px;
+        width: auto;
+        left: auto;
+        right: auto;
+    }
+}
+
