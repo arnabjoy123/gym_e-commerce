@@ -18,7 +18,6 @@ img{
 
 .content{
     padding: 0px 30px;
-    width: 50%;
     margin: auto;
     color: rgb(0, 0, 0);
     text-shadow: 10px 10px 200px 50px #0ed7ff;
@@ -63,20 +62,30 @@ i a{
     padding-left: 10px;
 }
 
-@media (max-width: 666px) {
+@media (max-width: 666px) 
+{
     nav{
         flex-direction: column;
     }
 }
 
-@media (max-width: 666px) {
+@media (max-width: 666px) 
+{
     ul{
         flex-direction: column;
     }
 }
+
     @media ( max-width: 960px){
+
     .super-content{
         flex-direction: column;
+    }
+    img{
+        max-width: 90%;
+    }
+    .content{
+        max-width: 90%;
     }
 }
 
