@@ -1,19 +1,27 @@
+.super-content{
+    border: 10px solid rgb(1, 52, 13);
+    display: flex;
+    flex-direction: row;
+    background-color: #080c31;
+}
+
 img{
-    max-width: 50%;
-    max-height: 100%;
-    position: relative;
-    top: 80px;
-    left: 20px;
+    border: 2px solid brown;
+    max-height:  300px;
+    margin: auto;
     border-radius: 2%;
+    box-shadow: 0px 0px 20px 5px #0ed7ff;
 }
 
 .content{
+    border: 2px solid magenta;
     padding: 0px 30px;
     width: 50%;
-    display: block;
-    position: relative;
-    left: 50%;
-    bottom: 300px;
+    margin: auto;
+    display: flex;
+    color: antiquewhite;
+    text-shadow: 0px 0px 20px 5px #0f91f5;
+   
 
 }
 
@@ -30,36 +38,51 @@ footer {
     width: 2%;
 }
 
-section{
+nav{
+    border: 1px solid blue;
+    background-color: #4b34f8;
+    border-bottom: 6px solid #080c31;
+}
+
+ul{
+    border: 1px solid red;
     display: flex;
-    justify-content: space-between;
+    flex-grow: 0.5;
+    justify-content: space-evenly;
+    font-size: 0.7em;
 }
 
-.navbar{
-background-color: rgb(30, 48, 42);
+ul li{
+    display: inline;
 }
+
 a{
+    border: 1px solid purple;
+    padding: 0px 20px;
     text-decoration: none;
-    color: #fff;
+    color: antiquewhite;
+    font-size: 1.5em;
 }
 
+i a{
+    font-size: 0.8em;
+    padding-left: 10px;
+}
 
-@media only screen and (max-width:430px){
-    img{
-        position: relative;
-        left: 100px;
-        right: auto;
-        width: auto;
+@media (max-width: 666px) {
+    nav{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 666px) {
+    ul{
+        flex-direction: column;
     }
 
-
-
-    .content{
-        position: relative;
-        margin-top: 380px;
-        width: auto;
-        left: auto;
-        right: auto;
+    @media ( max-width: 960px){
+    .super-content{
+        flex-direction: column;
     }
 }
 
